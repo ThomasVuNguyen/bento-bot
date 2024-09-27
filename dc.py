@@ -5,7 +5,7 @@ motor = sys.argv[1]
 motor_list = {'1': kit.motor1, '2': kit.motor2, '3': kit.motor3}
 
 
-state = int(sys.argv[2])
+state = float(sys.argv[2])
 
 if '-' in sys.argv[2]:
         state = -1
